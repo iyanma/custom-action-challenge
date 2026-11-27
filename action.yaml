@@ -1,0 +1,8 @@
+name: "Print GitHub Actor and Repo Details"
+description: >
+  An action created to veryfy the way action inputs are passed as
+  environment variables
+runs:
+  using: docker
+  image: Dockerfile
+author: iyanma
