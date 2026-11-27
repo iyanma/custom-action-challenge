@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk update && pk add --no-cache bash jq
+RUN apk update && apk add --no-cache bash jq
 
 RUN mkdir -p /opt/bin
 COPY ./entrypoint.sh /opt/bin/entrypoint.sh
